@@ -1,4 +1,4 @@
-name: /pub/electronics/sbcs/arduino
+name: //pub/electronics/sbcs/arduino
 desc: Arduino
 url: https://arduino.cc/
 cover:
@@ -8,7 +8,7 @@ import:
   pub:
     onlyInRoot: True
     type: git
-    url: https://github.com/openvmp/partcad-index.git
+    url: https://github.com/partcad/partcad-index.git
 
 parts:
   mega2560:
@@ -24,7 +24,7 @@ parts:
     sku: A000066
     url: https://store.arduino.cc/products/arduino-uno-rev3
     implements:
-      "/pub/std/metric/m:m3-thru":
+      "//pub/std/metric/m:m3-thru":
         top-back-left: [[-17.75, -23.5, 1.5], [1, 0, 0], 180]
         top-back-right: [[-17.75, 23.5, 1.5], [1, 0, 0], 180]
         top-front-left: [[33, -19.65, 1.5], [1, 0, 0], 180]
