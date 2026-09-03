@@ -1,4 +1,4 @@
-# /pub/electronics/sbcs/arduino
+# //pub/electronics/sbcs/arduino
 
 Arduino
 
