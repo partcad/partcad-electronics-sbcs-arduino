@@ -1,10 +1,11 @@
+partcad: ">=0.8.0"
 name: //pub/electronics/sbcs/arduino
 desc: Arduino
 url: https://arduino.cc/
 cover:
   part: mega2560
 
-import:
+dependencies:
   pub:
     onlyInRoot: True
     type: git
